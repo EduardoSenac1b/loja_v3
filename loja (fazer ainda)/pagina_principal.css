@@ -1,0 +1,50 @@
+header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+nav .nav-container {
+    display: flex;               /* Flexbox para alinhar na mesma linha */
+    justify-content: center;      /* Centraliza os itens horizontalmente */
+    gap: 30px;                    /* Espaçamento entre os itens */
+    margin-top: 10px;
+}
+
+nav .nav-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background-color: black;
+    margin: 10px 0;
+}
+.descricao {
+    width: 60%;
+    font-size: 18px;
+}
+.foto-loja {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+    font-size: 24px;
+    font-style: italic;
+    color: gray;
+}
